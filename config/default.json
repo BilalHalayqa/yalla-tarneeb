@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://bilal:bilal@cluster0-qfn3d.mongodb.net/yalla-tarneeb?retryWrites=true&w=majority",
+  "jwtSecret": "shopping_list_secret"
+}

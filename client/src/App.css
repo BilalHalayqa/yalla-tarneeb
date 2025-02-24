@@ -1,0 +1,226 @@
+/* Cusotm CSS */
+.season-item-btns {
+  padding: 0;
+}
+.season-item-btns a.btn {
+  margin-bottom: 10px;
+}
+.logo {
+  max-height: 50px;
+  width: auto;
+  vertical-align: middle;
+  padding: 0 10px 5px 10px;
+}
+.material-icons {
+  vertical-align: middle;
+}
+
+a {
+  color: white;
+}
+.light-red {
+  color: white;
+  background-color: #ee6e73;
+}
+
+/* Cards */
+.card .card-content {
+  padding: 10px;
+}
+.card .card-action {
+  padding: 8px 24px;
+  margin-bottom: 10px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  /* height: 60px; */
+  direction: rtl;
+  padding: 0;
+  border-bottom: 2px #f6b2b5 solid;
+}
+.tabs .indicator {
+  top: 0;
+  bottom: initial;
+}
+.tabs .tab a {
+  color: #fff;
+}
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  color: #fff;
+  background-color: rgba(38, 166, 154, 0.08) !important;
+}
+
+/* Toast */
+#toast-container {
+  bottom: auto !important;
+  left: auto !important;
+  top: 15%;
+  right: 7%;
+}
+.toast .toast-error {
+  background-color: lightcoral;
+  color: #fff;
+}
+/* Modal */
+.modal {
+  overflow-y: visible;
+}
+.modal .button-cancel {
+  margin-right: 10px !important;
+}
+.modal-footer {
+  display: none;
+}
+.modal .confirmation-buttons {
+  text-align: right;
+}
+/* Badge */
+span.badge {
+  border-radius: 5px;
+}
+/* Form Inputs */
+.input-field {
+  float: none !important;
+}
+/* Season Item */
+.season-item .badge i {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.season-item .season-status span {
+  padding: 5px;
+  float: initial;
+}
+.seasons-tabs .button-delete {
+  margin-right: 10px !important;
+}
+/* Season Teams - Team Card */
+.season-teams .team-block {
+  padding: 0;
+}
+.season-teams .team-block .title {
+  padding: 5px;
+}
+.season-teams .team-block .title p {
+  font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.season-teams .team-block .teams {
+  padding: 10px;
+  font-size: 16px;
+}
+.season-teams .team-block i {
+  cursor: pointer;
+  margin: 0;
+}
+.season-teams .team-block .teams div {
+  padding: 0;
+}
+.season-teams .team-block .teams div:first-child p {
+  border-right: 1px solid rgb(158, 158, 158);
+  padding-right: 3px;
+}
+.season-teams .team-block .teams div:nth-child(2) {
+  padding-left: 3px;
+}
+.season-teams .team-block .teams p {
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Season Games - Game Card */
+.season-games .game-block {
+  padding: 0;
+  height: 90px;
+}
+.season-games .game-block .card-content {
+  margin: 0;
+  padding: 0px;
+}
+.season-games .game-block i {
+  cursor: pointer;
+  margin: 0;
+  padding: 0px;
+}
+.season-games .game-box > div {
+  padding: 0;
+}
+.season-games .game-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.season-games .game-box button {
+  height: 86px;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.season-games .game-box .score {
+  padding: 0;
+  border: 1px solid #b5b5b5;
+}
+.season-games .game-box .score .score1,
+.season-games .game-box .score .score2 {
+  padding: 0;
+}
+.season-games .game-block button {
+  font-size: 13px;
+  cursor: default;
+  line-height: 20px;
+}
+.season-games .game-box .round {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 1px #fff solid;
+  padding: 0 3px;
+}
+.season-games .winner {
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.season-games .winner .teams i {
+  font-size: 50px;
+}
+.season-games .winner .teams span {
+  font-size: 40px;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+.season-games .winner .players {
+  font-size: 20px;
+}
+
+/* Players */
+.players ul.list li {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.players .nickname {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+/* Media Queries */
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 25%;
+    transform: initial;
+    font-size: 20px;
+  }
+  .logo {
+    margin-top: -10px;
+  }
+}
